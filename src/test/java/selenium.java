@@ -88,7 +88,7 @@ public class selenium{
             //verify order
             String order =driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div/div/div[1]/div[2]/div[2]/div/aside/div/section/div/div[1]/section/div[2]/div[2]/div[2]/div")).getText();
             Assert.assertEquals(actualSelectedItem,order);
-//            driver.quit();
+            driver.quit();
         }
         }
 
